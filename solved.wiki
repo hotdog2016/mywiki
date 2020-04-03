@@ -1,0 +1,6 @@
+Q:fcitx 启动不了
+S：1.不用搜狗输入法，只用自带的双拼输入法
+   2.fcitx 设置机启动
+
+Q:GTK图形类的应用启动的速度太慢
+S:dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY

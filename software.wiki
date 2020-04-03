@@ -1,0 +1,3 @@
+websit   midori
+file browse : ranger
+git : lazygit 

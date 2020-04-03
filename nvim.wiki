@@ -1,0 +1,75 @@
+------------------------------------------
+\p                  show current path    
+F4                  delete space line   
+F5                  pasettoggle          
+F8                  markdown preview     
+F9                  save graphviz as pdf 
+------------------------------------------
+sh                  split left windows   
+sj                  split down windows   
+sk                  split up windows     
+sl                  split right windows  
+------------------------------------------
+<leader>a 			0
+<leader>b           close buffer         
+<leader>c			CtrlSpace	
+<leader>e			$
+<leader>f           FZF                  
+<leader>g           %
+<leader>h           focus left windows   
+<leader>i			set ic<CR>
+<leader>I			set noic<CR>
+<leader>j           focus down windows   
+<leader>k           focus up windows     
+<leader>l           focus Right windows  
+<leader>q           close window         
+<leader>r           refresh init.vim       
+<leader>u           undotree             
+<leader>v           vista            
+------------------------------------------
+<leader>lv         show graphviz        
+<leader><leader>nt NERDTreeToggle
+<leader>tm         open table mode      
+------------------------------------------
+<leader><leader>a	Find assignments to this symbol
+<leader><leader>c	Find functions calling this function
+<leader><leader>d	Find functions called by this function
+<leader><leader>e	Find this egrep pattern
+<leader><leader>f	Find this file
+<leader><leader>g	Find this definition
+<leader><leader>i	Find files #including this file
+<leader><leader>p   "+p	
+<leader><leader>s	Find this C symbol
+<leader><leader>t	Find this text string
+<leader><leader>y   "+y	
+------------------------------------------
+Alt-j		res +5<CR>
+Alt-k		res -5<CR>
+Alt-h		vertical resize-5<CR>
+Alt-l		vertical resize+5<CR>
+------------------------------------------
+C-t         Vista finder         
+C-r         redo
+------------------------------------------
+W					wa<CR>
+Q					qa<CR>
+T                   Vista                
+------------------------------------------
+za 打开折叠
+zc 关闭折叠
+zM 关闭所有折叠
+zm 打开所有折叠
+------------------------------------------
+## VIM命令
+[range]s/pattern/string/[c,e,g,i]*
+参数				作用
+range	         	[m,n]  %  
+pattern	         	就是要被替換掉的字串，可以用 regexp 來表示。
+string	         	將 pattern 由 string 所取代。
+c	             	confirm，每次替換前會詢問。
+e	             	不顯示 error。
+g	             	globe，不詢問，整行替換。
+i	             	ignore 不分大小寫。
+-------------------------------------------
+删除行尾空格  %s/\s\+$//g
+q(a~z)录制宏 / @(a~z)播放宏

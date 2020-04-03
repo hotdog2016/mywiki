@@ -1,0 +1,25 @@
+ERROR1:#git@github.com: Permission denied (publickey).
+
+#连接ssh代理 在后台执行
+
+eval `ssh-agent -s`
+
+#检查ssh key是否存在，如果没有的话就要重新创建一个key
+ls -al ~/.ssh
+#Lists the files in your .ssh directory, if they exist
+#id_rsa.pub
+#id_ecdsa.pub
+#id_ed25519.pub
+
+#创建ssh key
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-add ~/.ssh/id_rsa
+
+ERROR2:client_loop: send disconnect: Broken pipe
+
+#Set option in SSH config
+#You can set the IPQoS option in the config file (e.g. $HOME/.ssh/config) like this:
+# This will apply to all hosts.
+Host *    
+    IPQoS=throughput
+

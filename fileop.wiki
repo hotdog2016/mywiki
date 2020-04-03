@@ -1,0 +1,37 @@
+
+##############################################################################
+# 文本处理 - awk / sed 
+##############################################################################
+
+awk '{print $5}' file              # 打印文件中以空格分隔的第五列
+awk -F ',' '{print $5}' file       # 打印文件中以逗号分隔的第五列
+awk '/str/ {print $2}' file        # 打印文件中包含 str 的所有行的第二列
+awk -F ',' '{print $NF}' file      # 打印逗号分隔的文件中的每行最后一列 
+awk '{s+=$1} END {print s}' file   # 计算所有第一列的合
+awk 'NR%3==1' file                 # 从第一行开始，每隔三行打印一行
+
+sed 's/find/replace/' file         # 替换文件中首次出现的字符串并输出结果 
+sed '10s/find/replace/' file       # 替换文件第 10 行内容
+sed '10,20s/find/replace/' file    # 替换文件中 10-20 行内容
+sed -r 's/regex/replace/g' file    # 替换文件中所有出现的字符串
+sed -i 's/find/replace/g' file     # 替换文件中所有出现的字符并且覆盖文件
+sed -i '/find/i\newline' file      # 在文件的匹配文本前插入行
+sed -i '/find/a\newline' file      # 在文件的匹配文本后插入行
+sed '/line/s/find/replace/' file   # 先搜索行特征再执行替换
+sed -e 's/f/r/' -e 's/f/r' file    # 执行多次替换
+sed 's#find#replace#' file         # 使用 # 替换 / 来避免 pattern 中有斜杆
+sed -i -r 's/^\s+//g' file         # 删除文件每行头部空格
+sed '/^$/d' file                   # 删除文件空行并打印
+sed -i 's/\s\+$//' file            # 删除文件每行末尾多余空格
+sed -n '2p' file                   # 打印文件第二行
+sed -n '2,5p' file                 # 打印文件第二到第五行
+
+##############################################################################
+# 排序 - sort
+##############################################################################
+
+sort file                          # 排序文件
+sort -r file                       # 反向排序（降序）
+sort -n file                       # 使用数字而不是字符串进行比较
+sort -t: -k 3n /etc/passwd         # 按 passwd 文件的第三列进行排序
+sort -u file                       # 去重排序

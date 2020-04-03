@@ -1,0 +1,28 @@
+C-b  | Move the selection bar one screen up
+C-c  | Close the list
+C-d  | Move the selection bar a half screen down
+C-f  | Move the selection bar one screen down
+C-n  | Bring the next searched text
+C-p  | Bring back the previous searched text
+C-t  | Open selected buffer always in a new tab but stay in the plugin window
+C-u  | Move the selection bar a half screen up
+F    | Delete (close) all foreign buffers (detached from tabs)
+G    | Jump to a previous/next (G/g) tab containing the selected buffer
+H    | Enter the Buffer List ([H]ome List) in Search Mode
+I    | Change CWD to a directory having the selected buffer (i) or go back (I)
+J    | Move the selection bar to the bottom of the list
+K    | Move the selection bar to the top of the list
+S    | Open selected buffer in a new horizontal split but stay in the plugin window
+S-Tab| Change the target window to one containing selected buffer
+Space| Open selected buffer and stay in the plugin window
+T    | Open selected buffer in a new (or next) tab but stay in the plugin window
+Tab  | Jump to the window containing selected buffer
+V    | Open selected buffer in a new vertical split but stay in the plugin window
+X    | Leave the window containing selected buffer - close all others
+[    | Go to the previous/next tab
+]    | Go to the previous/next tab
+x    | Close the split window containing selected buffer
+y    | Copy selected file
+z    | Toggle Zoom Mode
+{    | Move the selected buffer to to the previous/next tab
+}    | Move the selected buffer to to the previous/next tab

@@ -1,0 +1,4 @@
+ctrl+shift+c     复制
+ctrl+shift+v     粘贴 
+Alt+s            进入搜索模式
+Alt+Esc          进入选择模式
