@@ -1,11 +1,22 @@
-[[fileop]]
-[[git_cmd]]
-[[git_error]]
-[[i3]]
-[[net]]
-[[nvim]]
-[[ranger]]
-[[software]]
-[[solved]]
-[[terminal]]
-[[ctrlspace]]
+==nvim==
+	* coc
+		* [[coc-exploer]]
+	* [[hotkey]] 
+	* [[ctrlspace]]
+	* surround
+==note==
+	* [[solved]]
+==software==
+	* [[ranger]]
+	* [[i3]]
+	* [[screenfetch]]
+	* feh
+	* lazygit
+==terminal==
+	* [[zsh]]
+	* [[urxvt]]
+    * [[net]]
+	* [[fileop]]
+==git==
+	* [[git_cmd]]
+	* [[git_error]]

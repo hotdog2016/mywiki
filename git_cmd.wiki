@@ -14,3 +14,5 @@ git fetch
 git remote #查看当前连接的远程仓库的名字
 git remote  add <remote name> <remote address>	#连接远程仓库
 --------------------------------------------------------------------------------
+git log 查看日志，里面有提交和fetch的节点
+git reset --hard ............... 恢复到某个版本节点

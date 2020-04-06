@@ -1,0 +1,6 @@
+1. 下载字体文件放到/usr/share/fonts
+2. fc-list 查看是否添加进去
+3. 如果在fonts文件夹内新加文件夹 则需要运行 fc-cache -fv
+
+* 现在用的字体是 DejaVuSansMono Nerd Font Mono 可以支持nerd fonts
+
