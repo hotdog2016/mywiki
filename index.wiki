@@ -4,7 +4,7 @@
 	* [[hotkey]] 
 	* [[ctrlspace]]
 	* surround
-	* [[脚本编写]]
+	* [[vim脚本编写]]
 ==note==
 	* [[solved]]
 ==software==
@@ -13,13 +13,18 @@
 	* [[screenfetch]]
 	* feh
 	* lazygit
+	* [[proxychains]]
 ==terminal==
 	* [[zsh]]
 	* [[urxvt]]
-    * [[net]]
 	* [[fileop]]
 ==git==
 	* [[git_cmd]]
 	* [[git_error]]
 ==pacman==
 	* [[更新系统命令]]
+==network==
+    * [[netcommand]]
+	* networkmanager
+	* [[代理]]
+

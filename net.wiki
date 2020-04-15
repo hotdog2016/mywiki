@@ -20,3 +20,5 @@ ifconfig eth0 down                 # 关闭网卡
 ifconfig eth0 192.168.120.56       # 给网卡配置 IP 地址
 ifconfig eth0 10.0.0.8 netmask 255.255.255.0 up     # 配置 IP 并启动
 ifconfig eth0 hw ether 00:aa:bb:cc:dd:ee            # 修改 MAC 地址
+
+

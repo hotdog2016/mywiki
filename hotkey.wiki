@@ -1,113 +1,114 @@
-------------------------------------------
-\p                  show current path    
-F4                  delete space line   
-F5                  pasettoggle          
-F8                  markdown preview     
-F9                  save graphviz as pdf 
-.                   重复上一次动作
-------------------------------------------
-sh                  split left windows   
-sj                  split down windows   
-sk                  split up windows     
-sl                  split right windows  
-
-ts              翻译
-
-gd				go to definition
-ge      		go to declaration
-gy      		go to type-definition
-gi      		go to implementation
-gr      		go to references
-
-mm           Add/remove bookmark at current line	
-mi           Add/edit/remove annotation at current line
-mn			 Jump to next bookmark in buffer
-mp			 Jump to previous bookmark in buffer
-ma			 Show all bookmarks (toggle)
-mc			 Clear bookmarks in current buffer only
-mx			 Clear bookmarks in all buffers
-[count]mkk	 Move up bookmark at current line
-[count]mjj	 Move down bookmark at current line
-[count]mg	 Move bookmark at current line to another line
-------------------------------------------
-<leader>a 			0
-<leader>b           close buffer         
-<leader>c			CtrlSpace	
-<leader>e			$
-<leader>f           FZF                  
-<leader>g           %
-<leader>h           focus left windows   
-<leader>i			set ic<CR>
-<leader>I			set noic<CR>
-<leader>j           focus down windows   
-<leader>k           focus up windows     
-<leader>l           focus Right windows  
-<leader>q           close window         
-<leader>r           refresh init.vim       
-<leader>u           undotree             
-<leader>v           vista            
-<leader>y  剪贴板
-------------------------------------------
-<leader>dc   CocList commands
-<leader>dd   CocList diagnostics
-<leader>de   CocList extensions
-<leader>do   CocList outline
-<leader>ds   CocList symbols
-
-<leader>lv         show graphviz        
-
-<leader>rn      rename
-
-<leader>tm         open table mode      
-<leader>tn         todolist.create
-<leader>tl         todolist
-<leader>tu         todolist.download
-
-
-------------------------------------------
-<leader><leader>a	Find assignments to this symbol
-<leader><leader>c	Find functions calling this function
-<leader><leader>d	Find functions called by this function
-<leader><leader>e	Find this egrep pattern
-<leader><leader>f	Find this file
-<leader><leader>g	Find this definition
-<leader><leader>i	Find files #including this file
-<leader><leader>p   "+p	
-<leader><leader>s	Find this C symbol
-<leader><leader>t	Find this text string
-<leader><leader>y   "+y	
----------------------------------------------
-<leader><leader>nt NERDTreeToggle
-------------------------------------------
-
-<M-down>	:res +5<CR>
-<M-up>   	:res -5<CR>
-<M-left> 	:vertical resize-5<CR>
-<M-right>	:vertical resize+5<CR>
-
-<M-k> 5k 
-<M-j> 5j 
-<M-h> 5h 
-<M-l> 5l 
-------------------------------------------
-C-t         Vista finder         
-C-r         redo
-------------------------------------------
-W					wa<CR>
-Q					qa<CR>
-T                   Vista                
-------------------------------------------
-za 打开折叠
-zc 关闭折叠
-zM 关闭所有折叠
-zm 打开所有折叠
-------------------------------------------
-
-
-
-
-
-------------------------------------------
+| key | function                 |
+|-----|--------------------------|
+| \p  | show current path        |
+| F3  | convert all wiki to html |
+| F4  | delete space line        |
+| F5  | pasettoggle              |
+| F8  | markdown previewi        |
+| F9  | save graphviz as pdf     |
+| .   | 重复上一次动作           |
+-----
+| key        | function                                      |
+|------------|-----------------------------------------------|
+| sh         | split left windows                            |
+| sj         | split down windows                            |
+| sk         | split up windows                              |
+| sl         | split right windows                           |
+| ts         | 翻译                                          |
+| gd         | go to definition                              |
+| ge         | go to declaration                             |
+| gy         | go to type-definition                         |
+| gi         | go to implementation                          |
+| gr         | go to references                              |
+| mm         | Add/remove bookmark at current line           |
+| mi         | Add/edit/remove annotation at current line    |
+| mn         | Jump to next bookmark in buffer               |
+| mp         | Jump to previous bookmark in buffer           |
+| ma         | Show all bookmarks (toggle)                   |
+| mc         | Clear bookmarks in current buffer only        |
+| mx         | Clear bookmarks in all buffers                |
+| [count]mkk | Move up bookmark at current line              |
+| [count]mjj | Move down bookmark at current line            |
+| [count]mg  | Move bookmark at current line to another line |
+-----
+| kEY       | function            |
+|-----------|---------------------|
+| <leader>a | 0                   |
+| <leader>b | close buffer        |
+| <leader>c | CtrlSpace           |
+| <leader>e | $                   |
+| <leader>f | FZF                 |
+| <leader>g | %                   |
+| <leader>h | focus left windows  |
+| <leader>i | set ic<CR>          |
+| <leader>I | set noic<CR>        |
+| <leader>j | focus down windows  |
+| <leader>k | focus up windows    |
+| <leader>l | focus Right windows |
+| <leader>q | close window        |
+| <leader>r | refresh init.vim    |
+| <leader>u | undotree            |
+| <leader>v | vista               |
+| <leader>y | 剪贴板              |
+-----
+| key        | function            |
+|------------|---------------------|
+| <leader>dc | CocList commands    |
+| <leader>dd | CocList diagnostics |
+| <leader>de | CocList extensions  |
+| <leader>do | CocList outline     |
+| <leader>ds | CocList symbols     |
+| <leader>lv | show graphviz       |
+| <leader>rn | rename              |
+| <leader>tm | open table mode     |
+| <leader>tn | todolist.create     |
+| <leader>tl | todolist            |
+| <leader>tu | todolist.download   |
+| <leader>nt | exploer             |
+----
+| key               | function                               |
+|-------------------|----------------------------------------|
+| <leader><leader>a | Find assignments to this symbol        |
+| <leader><leader>c | Find functions calling this function   |
+| <leader><leader>d | Find functions called by this function |
+| <leader><leader>e | Find this egrep pattern                |
+| <leader><leader>f | Find this file                         |
+| <leader><leader>g | Find this definition                   |
+| <leader><leader>i | Find files #including this file        |
+| <leader><leader>p | "+p                                    |
+| <leader><leader>s | Find this C symbol                     |
+| <leader><leader>t | Find this text string                  |
+| <leader><leader>y | "+y                                    |
+----
+| key       | function               |
+|-----------|------------------------|
+| <M-down>  | :res +5<CR>            |
+| <M-up>    | :res -5<CR>            |
+| <M-left>  | :vertical resize-5<CR> |
+| <M-right> | :vertical resize+5<CR> |
+| <M-k>     | 5k                     |
+| <M-j>     | 5j                     |
+| <M-h>     | 5h                     |
+| <M-l>     | 5l                     |
+----
+| key | function     |
+|-----|--------------|
+| C-t | Vista finder |
+| C-r | redo         |
+----
+| key | function |
+|-----|----------|
+| W   | wa<CR>   |
+| Q   | qa<CR>   |
+| T   | Vista    |
+----
+| key | function     |
+|-----|--------------|
+| za  | 打开折叠     |
+| zc  | 关闭折叠     |
+| zM  | 关闭所有折叠 |
+| zm  | 打开所有折叠 |
+----
 ## VIM命令
 [range]s/pattern/string/[c,e,g,i]*
 参数				作用
@@ -120,9 +121,9 @@ g	             	globe，不詢問，整行替換。
 i	             	ignore 不分大小寫。
 -------------------------------------------
 删除行尾空格  %s/\s\+$//g
-q(a~z)录制宏 / @(a~z)播放宏
+q(a~z)录制宏 / @(a~z)播放宏<br />
+"+ 所有的复制或删除都会放到这个寄存器里<br>
+"- 只有删除的内容会放到这里<br>
+"* 与外部剪切板相通的寄存器<br> 
+". 记录刚才的输入（普通模式和插入模式都会记录）<br>
 
-"+ 所有的复制或删除都会放到这个寄存器里
-"- 只有删除的内容会放到这里
-"* 与外部剪切板相通的寄存器 
-". 记录刚才的输入（普通模式和插入模式都会记录）
