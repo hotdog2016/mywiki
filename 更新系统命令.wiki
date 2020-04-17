@@ -1,0 +1,7 @@
+pacman -Sc 清空并且下载新数据
+pacman-mirrors -gb testing -c China //更新源
+or
+pacman-mirrors -c China -g //更新源
+pacman -Syu 更新
+pacman -Syy 更新源数据库
+pacman -Syyu 安装更新
