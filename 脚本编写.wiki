@@ -1,0 +1,6 @@
+* 函数
+	* finddir('{dirname}','.;') 往前搜索
+	* fnamemodify( 'file path',':p:h:h' )去除后面的文件名或者目录名，有多少个：h就去除多少
+
+* 调试用echom或者echo
+* . 是用来连接字符串的

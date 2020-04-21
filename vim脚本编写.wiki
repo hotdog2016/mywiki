@@ -1,0 +1,3 @@
+增加了切换到工程目录的命令F2，使用：execute "cd " .project <bR>
+'.'是连接字符串的符号，project是一个变量，记录了从当前文件的工程目录。<BR>
+工程目录的获取方法是通过fnamemodify(finddir('.git',.;),':p:h:h'),fnamemodify用来改变路径名，将后面的文件名去掉只保留目录名
