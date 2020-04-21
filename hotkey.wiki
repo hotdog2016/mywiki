@@ -65,6 +65,7 @@
 | <leader>tl | todolist            |
 | <leader>tu | todolist.download   |
 | <leader>nt | exploer             |
+| <leader>ww | exploer             |
 ----
 | key               | function                               |
 |-------------------|----------------------------------------|
