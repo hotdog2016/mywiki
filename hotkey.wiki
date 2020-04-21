@@ -1,12 +1,16 @@
 | key | function                 |
 |-----|--------------------------|
 | \p  | show current path        |
+| F2  | 切换到工程根目录         |
 | F3  | convert all wiki to html |
 | F4  | delete space line        |
 | F5  | pasettoggle              |
+| F6  | 更新plug插件和Coc插件    |
 | F8  | markdown previewi        |
 | F9  | save graphviz as pdf     |
+| F10 | 打开浮动终端             |
 | .   | 重复上一次动作           |
+| -   | 跳到指定窗口             |
 -----
 | key        | function                                      |
 |------------|-----------------------------------------------|
