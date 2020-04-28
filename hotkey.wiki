@@ -6,9 +6,11 @@
 | F4  | delete space line        |
 | F5  | pasettoggle              |
 | F6  | 更新plug插件和Coc插件    |
-| F8  | markdown previewi        |
+| F8  | markdown preview         |
 | F9  | save graphviz as pdf     |
-| F10 | 打开浮动终端             |
+| F10 | 编译                     |
+| F11 | 运行                     |
+| F12 | 打开浮动终端             |
 | .   | 重复上一次动作           |
 | -   | 跳到指定窗口             |
 -----
@@ -69,7 +71,12 @@
 | <leader>tl | todolist            |
 | <leader>tu | todolist.download   |
 | <leader>nt | exploer             |
-| <leader>ww | exploer             |
+| <leader>ww | wiki                |
+| <leader>fl | find line right |
+| <leader>fj | find down       |
+| <leader>fk | find up         |
+| <leader>fh | find line left  |
+
 ----
 | key               | function                               |
 |-------------------|----------------------------------------|
