@@ -57,26 +57,35 @@
 | <leader>v | vista               |
 | <leader>y | 剪贴板              |
 -----
-| key        | function            |
-|------------|---------------------|
-| <leader>dc | CocList commands    |
-| <leader>dd | CocList diagnostics |
-| <leader>de | CocList extensions  |
-| <leader>do | CocList outline     |
-| <leader>ds | CocList symbols     |
-| <leader>lv | show graphviz       |
-| <leader>rn | rename              |
-| <leader>tm | open table mode     |
-| <leader>tn | todolist.create     |
-| <leader>tl | todolist            |
-| <leader>tu | todolist.download   |
-| <leader>nt | exploer             |
-| <leader>ww | wiki                |
-| <leader>fl | find line right |
-| <leader>fj | find down       |
-| <leader>fk | find up         |
-| <leader>fh | find line left  |
-
+| key        | function             |
+|------------|----------------------|
+| <leader>dc | CocList commands     |
+| <leader>dd | CocList diagnostics  |
+| <leader>de | CocList extensions   |
+| <leader>do | CocList outline      |
+| <leader>ds | CocList symbols      |
+| <leader>lv | show graphviz        |
+| <leader>rn | rename               |
+| <leader>tm | open table mode      |
+| <leader>tn | todolist.create      |
+| <leader>tl | todolist             |
+| <leader>tu | todolist.download    |
+| <leader>nt | exploer              |
+| <leader>ww | wiki                 |
+| <leader>fl | find line right      |
+| <leader>fj | find down            |
+| <leader>fk | find up              |
+| <leader>fh | find line left       |
+| <leader>fm | find Mru             |
+| <leader>fF | find Function        |
+| <leader>ft | find Tag             |
+| <leader>fs | find rg              |
+| <leader>fw | find word            |
+| <leader>fv | find visual string   |
+| <leader>fr | find reference       |
+| <leader>id | find definition      |
+| <leader>fo | find recall          |
+| <leader>is | to header file or  c |
 ----
 | key               | function                               |
 |-------------------|----------------------------------------|
