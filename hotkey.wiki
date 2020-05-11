@@ -3,14 +3,14 @@
 | \p  | show current path        |
 | F2  | 切换到工程根目录         |
 | F3  | convert all wiki to html |
-| F4  | delete space line        |
+| F4  | 打开配置文件             |
 | F5  | pasettoggle              |
 | F6  | 更新plug插件和Coc插件    |
 | F8  | markdown preview         |
 | F9  | save graphviz as pdf     |
 | F10 | 编译                     |
 | F11 | 运行                     |
-| F12 | 打开浮动终端             |
+| F12 |                          |
 | .   | 重复上一次动作           |
 | -   | 跳到指定窗口             |
 -----
@@ -42,6 +42,7 @@
 | <leader>a | 0                   |
 | <leader>b | close buffer        |
 | <leader>c | CtrlSpace           |
+| <leader>d | ALEDisable          |
 | <leader>e | $                   |
 | <leader>f | FZF                 |
 | <leader>g | %                   |
@@ -59,11 +60,11 @@
 -----
 | key        | function             |
 |------------|----------------------|
-| <leader>dc | CocList commands     |
-| <leader>dd | CocList diagnostics  |
-| <leader>de | CocList extensions   |
-| <leader>do | CocList outline      |
-| <leader>ds | CocList symbols      |
+| <leader>cc | CocList commands     |
+| <leader>cd | CocList diagnostics  |
+| <leader>ce | CocList extensions   |
+| <leader>co | CocList outline      |
+| <leader>cs | CocList symbols      |
 | <leader>lv | show graphviz        |
 | <leader>rn | rename               |
 | <leader>tm | open table mode      |
@@ -87,19 +88,20 @@
 | <leader>fo | find recall          |
 | <leader>is | to header file or  c |
 ----
-| key               | function                               |
-|-------------------|----------------------------------------|
-| <leader><leader>a | Find assignments to this symbol        |
-| <leader><leader>c | Find functions calling this function   |
-| <leader><leader>d | Find functions called by this function |
-| <leader><leader>e | Find this egrep pattern                |
-| <leader><leader>f | Find this file                         |
-| <leader><leader>g | Find this definition                   |
-| <leader><leader>i | Find files #including this file        |
-| <leader><leader>p | "+p                                    |
-| <leader><leader>s | Find this C symbol                     |
-| <leader><leader>t | Find this text string                  |
-| <leader><leader>y | "+y                                    |
+| key               | function |
+|-------------------|----------|
+| <leader><leader>a |          |
+| <leader><leader>c |          |
+| <leader><leader>d |          |
+| <leader><leader>e |          |
+| <leader><leader>f | ranger   |
+| <leader><leader>g |          |
+| <leader><leader>i |          |
+| <leader><leader>p |          |
+| <leader><leader>s |          |
+| <leader><leader>t |          |
+| <leader><leader>y | "+y      |
+| <leader><leader>p | "+p      |
 ----
 | key       | function               |
 |-----------|------------------------|
