@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>net</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+
+<p>
+ip a                               # 显示所有网络地址，同 ip address
+ip a show eth1                     # 显示网卡 IP 地址
+ip a add 172.16.1.23/24 dev eth1   # 添加网卡 IP 地址
+ip a del 172.16.1.23/24 dev eth1   # 删除网卡 IP 地址
+ip link show dev eth0              # 显示网卡设备属性
+ip link set eth1 up                # 激活网卡
+ip link set eth1 down              # 关闭网卡
+ip link set eth1 address {mac}     # 修改 MAC 地址
+ip neighbour                       # 查看 ARP 缓存
+ip route                           # 查看路由表
+ip route add 10.1.0.0/24 via 10.0.0.253 dev eth0    # 添加静态路由
+ip route del 10.1.0.0/24           # 删除静态路由
+</p>
+
+<p>
+ifconfig                           # 显示所有网卡和接口信息
+ifconfig -a                        # 显示所有网卡（包括开机没启动的）信息
+ifconfig eth0                      # 指定设备显示信息
+ifconfig eth0 up                   # 激活网卡
+ifconfig eth0 down                 # 关闭网卡
+ifconfig eth0 192.168.120.56       # 给网卡配置 IP 地址
+ifconfig eth0 10.0.0.8 netmask 255.255.255.0 up     # 配置 IP 并启动
+ifconfig eth0 hw ether 00:aa:bb:cc:dd:ee            # 修改 MAC 地址
+</p>
+
+</body>
+</html>

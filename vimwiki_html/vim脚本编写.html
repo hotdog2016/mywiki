@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>vim脚本编写</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<p>
+增加了切换到工程目录的命令F2，使用：execute "cd " .project <bR><br />
+'.'是连接字符串的符号，project是一个变量，记录了从当前文件的工程目录。<BR><br />
+工程目录的获取方法是通过fnamemodify(finddir('.git',.;),':p:h:h'),fnamemodify用来改变路径名，将后面的文件名去掉只保留目录名<br />
+</p>
+
+</body>
+</html>

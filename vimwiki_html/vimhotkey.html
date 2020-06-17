@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>vimhotkey</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<hr />
+<p>
+\p                  show current path    
+F4                  delete space line   
+F5                  pasettoggle          
+F8                  markdown preview     
+F9                  save graphviz as pdf 
+.                   重复上一次动作
+<hr />
+sh                  split left windows   
+sj                  split down windows   
+sk                  split up windows     
+sl                  split right windows  
+<hr />
+&lt;leader&gt;a 			0
+&lt;leader&gt;b           close buffer         
+&lt;leader&gt;c			CtrlSpace	
+&lt;leader&gt;e			$
+&lt;leader&gt;f           FZF                  
+&lt;leader&gt;g           %
+&lt;leader&gt;h           focus left windows   
+&lt;leader&gt;i			set ic&lt;CR&gt;
+&lt;leader&gt;I			set noic&lt;CR&gt;
+&lt;leader&gt;j           focus down windows   
+&lt;leader&gt;k           focus up windows     
+&lt;leader&gt;l           focus Right windows  
+&lt;leader&gt;q           close window         
+&lt;leader&gt;r           refresh init.vim       
+&lt;leader&gt;u           undotree             
+&lt;leader&gt;v           vista            
+<hr />
+&lt;leader&gt;lv         show graphviz        
+&lt;leader&gt;tm         open table mode      
+&lt;leader&gt;yd         GoToDefinition      
+&lt;leader&gt;yr         GoToReferences 
+&lt;leader&gt;yi         GoToInclude              
+&lt;leader&gt;yg         GoToDefinition      
+<hr />
+&lt;leader&gt;&lt;leader&gt;a	Find assignments to this symbol
+&lt;leader&gt;&lt;leader&gt;c	Find functions calling this function
+&lt;leader&gt;&lt;leader&gt;d	Find functions called by this function
+&lt;leader&gt;&lt;leader&gt;e	Find this egrep pattern
+&lt;leader&gt;&lt;leader&gt;f	Find this file
+&lt;leader&gt;&lt;leader&gt;g	Find this definition
+&lt;leader&gt;&lt;leader&gt;i	Find files #including this file
+&lt;leader&gt;&lt;leader&gt;p   "+p	
+&lt;leader&gt;&lt;leader&gt;s	Find this C symbol
+&lt;leader&gt;&lt;leader&gt;t	Find this text string
+&lt;leader&gt;&lt;leader&gt;y   "+y	
+<hr />
+&lt;leader&gt;&lt;leader&gt;nt NERDTreeToggle
+<hr />
+</p>
+
+<p>
+&lt;M-down&gt;	:res +5&lt;CR&gt;
+&lt;M-up&gt;   	:res -5&lt;CR&gt;
+&lt;M-left&gt; 	:vertical resize-5&lt;CR&gt;
+&lt;M-right&gt;	:vertical resize+5&lt;CR&gt;
+</p>
+
+<p>
+&lt;M-k&gt; 5k 
+&lt;M-j&gt; 5j 
+&lt;M-h&gt; 5h 
+&lt;M-l&gt; 5l 
+<hr />
+C-t         Vista finder         
+C-r         redo
+<hr />
+W					wa&lt;CR&gt;
+Q					qa&lt;CR&gt;
+T                   Vista                
+<hr />
+za 打开折叠
+zc 关闭折叠
+zM 关闭所有折叠
+zm 打开所有折叠
+<hr />
+## VIM命令
+[range]s/pattern/string/[c,e,g,i]*
+参数				作用
+range	         	[m,n]  %  
+pattern	         	就是要被替換掉的字串，可以用 regexp 來表示。
+string	         	將 pattern 由 string 所取代。
+c	             	confirm，每次替換前會詢問。
+e	             	不顯示 error。
+g	             	globe，不詢問，整行替換。
+i	             	ignore 不分大小寫。
+<hr />
+删除行尾空格  %s/\s\+$//g
+q(a~z)录制宏 / @(a~z)播放宏
+</p>
+
+<p>
+"+ 所有的复制或删除都会放到这个寄存器里
+"- 只有删除的内容会放到这里
+"* 与外部剪切板相通的寄存器 
+". 记录刚才的输入（普通模式和插入模式都会记录）
+</p>
+
+</body>
+</html>
